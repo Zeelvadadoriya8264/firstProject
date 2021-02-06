@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/a2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="185dp"
+                android:textStyle="bold"
+                android:text="DOCTOR'S POINT"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:weightSum="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btnLogin"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginRight="100dp"
+                    android:layout_marginTop="80dp"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    android:shape="rectangle"
+                    android:text="Login"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:background="@drawable/button_pressed"/>
+            </LinearLayout>
+<!--                <Space-->
+<!--                    android:layout_width="20dp"-->
+<!--                    android:layout_height="wrap_content"/>-->
+                <LinearLayout
+                    android:weightSum="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btnSignin"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/btnSaveStudentDetail"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginRight="100dp"
+                    android:layout_marginTop="25dp"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    android:shape="rectangle"
+                    android:text="Sign in"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:background="@drawable/button_disable"/>
+
+            </LinearLayout>
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="200dp"-->
+<!--        android:weightSum="1">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/xbtnDisplay"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginLeft="50dp"-->
+<!--            android:layout_marginTop="50dp"-->
+<!--            android:layout_marginRight="50dp"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="@drawable/custom_button"-->
+<!--            android:paddingLeft="25dp"-->
+<!--            android:paddingRight="25dp"-->
+<!--            android:shape="rectangle"-->
+<!--            android:text="DISPLAY"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="20dp"-->
+<!--            android:textStyle="bold" />-->
+
+
+
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:weightSum="1">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/xbtnsignin"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginLeft="50dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginRight="50dp"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="@drawable/custom_button"-->
+<!--            android:paddingLeft="25dp"-->
+<!--            android:paddingRight="25dp"-->
+<!--            android:shape="rectangle"-->
+<!--            android:text="Sign in"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="20dp"-->
+<!--            android:textStyle="bold" />-->
+
+
+
+<!--    </LinearLayout>-->
+
+<!--&lt;!&ndash;    <LinearLayout&ndash;&gt;-->
+<!--&lt;!&ndash;        android:weightSum="1"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginTop="175dp"&ndash;&gt;-->
+<!--&lt;!&ndash;     &ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginBottom="175dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:orientation="vertical">&ndash;&gt;-->
+<!--&lt;!&ndash;    <Button&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/xbtnlogin"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="0dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_weight="1"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:text="Login"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_centerHorizontal="true"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:textColor="@color/white"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginTop="75dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:textSize="30dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_gravity="center_vertical|center_horizontal"&ndash;&gt;-->
+<!--&lt;!&ndash;      />&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;        <Button&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/xbtnsignin"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="Sign in"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textColor="@color/white"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginTop="75dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textSize="30dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_gravity="center_vertical|center_horizontal"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:background="@drawable/custom_button"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    </LinearLayout>&ndash;&gt;-->
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
